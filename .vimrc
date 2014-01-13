@@ -21,6 +21,7 @@ set mouse=n
 syntax enable
 set background=dark
 colorscheme solarized
+set guifont=Consolas:h11:cANSI
 
 " tags settting
 set tags=tags;
