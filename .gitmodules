@@ -28,3 +28,6 @@
 [submodule "bundle/mark"]
 	path = bundle/mark
 	url = https://github.com/jkeylu/mark2666.git
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = https://github.com/vim-scripts/taglist.vim.git
