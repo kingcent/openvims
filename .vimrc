@@ -2,8 +2,8 @@ if has("win32")
     set nocompatible
     source $VIMRUNTIME/vimrc_example.vim
     source $VIMRUNTIME/mswin.vim
-    source $VIMRUNTIME/vimrc_taglist.vim
     behave mswin
+    source $VIMRUNTIME/vimrc_taglist.vim
 endif
 
 call pathogen#infect()
@@ -62,5 +62,3 @@ let g:solarized_bold=1
 let g:solarized_diffmode="normal"
 let g:solarized_hitrail=0
 let g:solarized_menu=1
-
-source $VIMRUNTIME\vimrc_taglist.vim
