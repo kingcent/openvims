@@ -11,4 +11,4 @@ let Tlist_Exit_OnlyWindow = 1          "如果taglist窗口是最后一个窗口，则退出vim
 let Tlist_Use_Right_Window = 1         "在右侧窗口中显示taglist窗口  
 let Tlist_Use_SingleClick = 1          "单击tag就跳转到定义  
 let Tlist_GainFocus_On_ToggleOpen = 1  "使用:TlistToggle打开taglist窗口时，输入焦点在taglist窗口中  
-nmap <silent> <F8> :TlistToggle<CR>    "打开tag窗口  
+nmap <silent> <F11> :TlistToggle<CR>    "打开tag窗口  
