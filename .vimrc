@@ -62,3 +62,11 @@ let g:solarized_bold=1
 let g:solarized_diffmode="normal"
 let g:solarized_hitrail=0
 let g:solarized_menu=1
+
+"-------------------------------------------------
+"taglist settings
+"-------------------------------------------------
+let Tlist_Use_SingleClick = 0
+let Tlist_Sort_Type = "order"
+let Tlist_Auto_Highlight_Tag = 1
+let Tlist_Auto_Update = 1
