@@ -70,3 +70,12 @@ let Tlist_Use_SingleClick = 0
 let Tlist_Sort_Type = "order"
 let Tlist_Auto_Highlight_Tag = 1
 let Tlist_Auto_Update = 1
+
+filetype plugin on
+autocmd FileType python set omnifunc=pythoncomplete#Complete
+set autoindent
+set smartindent
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
